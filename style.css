@@ -55,7 +55,14 @@ ul {
   font-size: 18px;
 }
 .random-information {
+  display: flex;
   background-color: white;
+  color: black;
+  font-size: 26px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
 
 .quote {
@@ -64,14 +71,16 @@ ul {
 }
 
 .call-to-action {
-  display: flex;;
+  display: flex;
+  flex-grow: 1;
   padding 20px;
   background-color: #3882f6;
+  color: white;
   align-items: center;
   align-content: center;
-  justify-content: center;
   padding: 30px;
-  margin: 20px 100px 20px 100px;
+  min-width: 800px
+  margin: 40px 100px 20px 100px;
 }
 
 .footer {
@@ -93,11 +102,12 @@ a:active {
 }
 
 
-img {
+.image {
   margin-right: 100px;
   width: 30%;
   height: auto;
   display: flex;
+  flex-shrink: 1;
 }
 
 .title-block{
@@ -114,9 +124,52 @@ img {
   margin: 0 50px 0 0;
 }
 
-p{
+p {
   margin-left: 100px;
   margin-right: 50px;
   color: whitesmoke;
   text-align: justify;
+}
+
+.pictures {
+display: flex;
+justify-content: center;
+gap: 35px;
+padding-bottom: 30px;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+  display: flex;
+  height: 175px;
+  width: auto;
+  flex-shrink: 1;
+}
+.quote {
+  font-size: 36px;
+  color: #1f2973;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 140px;
+  padding-right: 140px;
+  text-align: justify;
+}
+
+.action-block {
+  display: flex;
+  margin: 40px 100px 20px 100px;
+
+}
+
+.sign-up{
+  background-color: #3882f6;
+  color: white;
+}
+
+@media all and (max-width: 540px) {
+  .main {
+    flex-direction: column;
+  }
 }
