@@ -144,9 +144,10 @@ padding-bottom: 30px;
 .pic2,
 .pic3,
 .pic4 {
-  display: flex;
   justify-content: center;
-  height: 245px;
+  align-content: center;
+  align-items: center;
+  height: 250px;
   margin-right: 0px;
   width: auto;
 }
