@@ -137,7 +137,7 @@ align-items: center;
 flex-shrink: 1;
 justify-content: space-evenly;
 /* gap: 35px; */
-padding-bottom: 30px;
+padding-top: 20px;
 }
 
 .pic1,
@@ -151,6 +151,13 @@ padding-bottom: 30px;
   margin-right: 0px;
   width: auto;
 }
+
+.picture-info {
+  max-width: 266px;
+  text-align: justify;
+  align-items: center;
+  }
+  
 
 
 .random.text {
@@ -169,19 +176,61 @@ padding-bottom: 30px;
   text-align: justify;
 }
 
+
 .action-block {
   display: flex;
-  margin: 40px 100px 20px 100px;
-
-}
-
-.sign-up{
+  border-radius: 10px;
+  justify-content: space-between;
+  margin: 100px;
+  min-height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: #3882f6;
   color: white;
+
 }
 
-.picture-info {
-  max-width: 266px;
-text-align: justify;
-align-items: center;
+.action-text{
+  display: flex;
+  font-size: 22px;
+  padding: 0;
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+  
+}
+
+.call-to-action{
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0;
+  border: 0;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  max-height: 25px;
+}
+
+.right{
+  display: flex;
+  flex-shrink: 0;
+} 
+
+.action-container{
+  align-items: center;
+  justify-content: end;
+}
+
+.button{
+  border: 2px solid white;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 80px;
+  min-width: 50px;
 }
