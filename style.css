@@ -174,7 +174,11 @@ padding-top: 20px;
   padding-left: 140px;
   padding-right: 140px;
   text-align: justify;
-}
+  }
+
+  .author{
+    margin-left: 75%;
+  }
 
 
 .action-block {
@@ -233,4 +237,25 @@ padding-top: 20px;
   font-size: 16px;
   margin-right: 80px;
   min-width: 50px;
+
+  font-size: 18px;
+  min-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+
+.button2{
+  border: 2px solid white;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 50px;
+  margin-left: 100px;
+  font-size: 18px;
+  min-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
